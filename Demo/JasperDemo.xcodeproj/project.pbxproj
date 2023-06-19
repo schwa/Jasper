@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45110FAE2A3D24C6006F9C2D /* SwiftFields in Frameworks */ = {isa = PBXBuildFile; productRef = 45110FAD2A3D24C6006F9C2D /* SwiftFields */; };
+		45110FB12A3D24EE006F9C2D /* SwiftFormats in Frameworks */ = {isa = PBXBuildFile; productRef = 45110FB02A3D24EE006F9C2D /* SwiftFormats */; };
+		4552A3642A3D101900CB80F5 /* JasperDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552A3632A3D101900CB80F5 /* JasperDemoApp.swift */; };
+		4552A3682A3D101900CB80F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552A3672A3D101900CB80F5 /* ContentView.swift */; };
+		4552A36A2A3D101A00CB80F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4552A3692A3D101A00CB80F5 /* Assets.xcassets */; };
+		4552A36E2A3D101A00CB80F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4552A36D2A3D101A00CB80F5 /* Preview Assets.xcassets */; };
+		4552A3772A3D109900CB80F5 /* Jasper in Frameworks */ = {isa = PBXBuildFile; productRef = 4552A3762A3D109900CB80F5 /* Jasper */; };
+		456CBCCC2A3F730900866D16 /* JasperDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456CBCCB2A3F730900866D16 /* JasperDocument.swift */; };
+		459B5D0D2A3E214E0044C819 /* Everything in Frameworks */ = {isa = PBXBuildFile; productRef = 459B5D0C2A3E214E0044C819 /* Everything */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4552A3602A3D101900CB80F5 /* JasperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4552A3632A3D101900CB80F5 /* JasperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasperDemoApp.swift; sourceTree = "<group>"; };
+		4552A3672A3D101900CB80F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4552A3692A3D101A00CB80F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4552A36B2A3D101A00CB80F5 /* JasperDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JasperDemo.entitlements; sourceTree = "<group>"; };
+		4552A36D2A3D101A00CB80F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4552A3742A3D105A00CB80F5 /* Jasper */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Jasper; path = ..; sourceTree = "<group>"; };
+		456CBCCB2A3F730900866D16 /* JasperDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasperDocument.swift; sourceTree = "<group>"; };
+		456CBCCD2A3F73DC00866D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4552A35D2A3D101900CB80F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4552A3772A3D109900CB80F5 /* Jasper in Frameworks */,
+				45110FB12A3D24EE006F9C2D /* SwiftFormats in Frameworks */,
+				45110FAE2A3D24C6006F9C2D /* SwiftFields in Frameworks */,
+				459B5D0D2A3E214E0044C819 /* Everything in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4552A3572A3D101900CB80F5 = {
+			isa = PBXGroup;
+			children = (
+				4552A3742A3D105A00CB80F5 /* Jasper */,
+				4552A3622A3D101900CB80F5 /* JasperDemo */,
+				4552A3612A3D101900CB80F5 /* Products */,
+				4552A3752A3D109900CB80F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4552A3612A3D101900CB80F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4552A3602A3D101900CB80F5 /* JasperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4552A3622A3D101900CB80F5 /* JasperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				456CBCCD2A3F73DC00866D16 /* Info.plist */,
+				4552A3632A3D101900CB80F5 /* JasperDemoApp.swift */,
+				4552A3672A3D101900CB80F5 /* ContentView.swift */,
+				456CBCCB2A3F730900866D16 /* JasperDocument.swift */,
+				4552A3692A3D101A00CB80F5 /* Assets.xcassets */,
+				4552A36B2A3D101A00CB80F5 /* JasperDemo.entitlements */,
+				4552A36C2A3D101A00CB80F5 /* Preview Content */,
+			);
+			path = JasperDemo;
+			sourceTree = "<group>";
+		};
+		4552A36C2A3D101A00CB80F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4552A36D2A3D101A00CB80F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4552A3752A3D109900CB80F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4552A35F2A3D101900CB80F5 /* JasperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4552A3712A3D101A00CB80F5 /* Build configuration list for PBXNativeTarget "JasperDemo" */;
+			buildPhases = (
+				4552A35C2A3D101900CB80F5 /* Sources */,
+				4552A35D2A3D101900CB80F5 /* Frameworks */,
+				4552A35E2A3D101900CB80F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasperDemo;
+			packageProductDependencies = (
+				4552A3762A3D109900CB80F5 /* Jasper */,
+				45110FAD2A3D24C6006F9C2D /* SwiftFields */,
+				45110FB02A3D24EE006F9C2D /* SwiftFormats */,
+				459B5D0C2A3E214E0044C819 /* Everything */,
+			);
+			productName = JasperDemo;
+			productReference = 4552A3602A3D101900CB80F5 /* JasperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4552A3582A3D101900CB80F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4552A35F2A3D101900CB80F5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4552A35B2A3D101900CB80F5 /* Build configuration list for PBXProject "JasperDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4552A3572A3D101900CB80F5;
+			packageReferences = (
+				45110FAC2A3D24C6006F9C2D /* XCRemoteSwiftPackageReference "SwiftFields" */,
+				45110FAF2A3D24EE006F9C2D /* XCRemoteSwiftPackageReference "SwiftFormats" */,
+				459B5D0B2A3E214E0044C819 /* XCRemoteSwiftPackageReference "Everything" */,
+			);
+			productRefGroup = 4552A3612A3D101900CB80F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4552A35F2A3D101900CB80F5 /* JasperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4552A35E2A3D101900CB80F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4552A36E2A3D101A00CB80F5 /* Preview Assets.xcassets in Resources */,
+				4552A36A2A3D101A00CB80F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4552A35C2A3D101900CB80F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4552A3642A3D101900CB80F5 /* JasperDemoApp.swift in Sources */,
+				4552A3682A3D101900CB80F5 /* ContentView.swift in Sources */,
+				456CBCCC2A3F730900866D16 /* JasperDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4552A36F2A3D101A00CB80F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4552A3702A3D101A00CB80F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4552A3722A3D101A00CB80F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JasperDemo/JasperDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JasperDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6E23EP94PG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JasperDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.JasperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4552A3732A3D101A00CB80F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JasperDemo/JasperDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JasperDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6E23EP94PG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JasperDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schwa.JasperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4552A35B2A3D101900CB80F5 /* Build configuration list for PBXProject "JasperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4552A36F2A3D101A00CB80F5 /* Debug */,
+				4552A3702A3D101A00CB80F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4552A3712A3D101A00CB80F5 /* Build configuration list for PBXNativeTarget "JasperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4552A3722A3D101A00CB80F5 /* Debug */,
+				4552A3732A3D101A00CB80F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45110FAC2A3D24C6006F9C2D /* XCRemoteSwiftPackageReference "SwiftFields" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/schwa/SwiftFields";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		45110FAF2A3D24EE006F9C2D /* XCRemoteSwiftPackageReference "SwiftFormats" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/schwa/SwiftFormats";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		459B5D0B2A3E214E0044C819 /* XCRemoteSwiftPackageReference "Everything" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schwa/Everything";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45110FAD2A3D24C6006F9C2D /* SwiftFields */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45110FAC2A3D24C6006F9C2D /* XCRemoteSwiftPackageReference "SwiftFields" */;
+			productName = SwiftFields;
+		};
+		45110FB02A3D24EE006F9C2D /* SwiftFormats */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45110FAF2A3D24EE006F9C2D /* XCRemoteSwiftPackageReference "SwiftFormats" */;
+			productName = SwiftFormats;
+		};
+		4552A3762A3D109900CB80F5 /* Jasper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Jasper;
+		};
+		459B5D0C2A3E214E0044C819 /* Everything */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 459B5D0B2A3E214E0044C819 /* XCRemoteSwiftPackageReference "Everything" */;
+			productName = Everything;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4552A3582A3D101900CB80F5 /* Project object */;
+}
